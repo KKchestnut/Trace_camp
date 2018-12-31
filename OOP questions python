@@ -1,0 +1,28 @@
+1.)What’s a class?
+  A class is almost like a struct that holds a list of information (data) that
+  can be used further in the code.
+2.)What’s an instance?
+  An instance holds a value that is copied from a class that can be called
+  in the program.
+3.)What’s the relationship between a class and an instance?
+  The relationship between a class and an instance is that a class can
+  hold a list of information while a instance only has a copy of values from
+  a class.
+4.)What’s the Python syntax used for defining a new class?
+  class (name):
+5.)What’s the spelling convention for a class name?
+  use capitalization
+6.)How do you instantiate, or create an instance of, a class?
+(classname)()
+7.)How do you access the attributes and behaviors of a class instance?
+  you use dot notation, (name).(name)
+8.)What’s a method?
+  a method is a function that is used inside of a class.
+9.)What’s the purpose of self?
+  is to refer to the first reference of the current instance of the class.
+10.)What’s the purpose of the __init__ method?
+  initializes an instance of a class.
+11.)Describe how inheritance helps prevent code duplication.
+  The child class will take whatever the parents attributes and behaviors.
+12.)Can child classes override properties of their parents?
+  Yes they can.
