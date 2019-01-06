@@ -1,0 +1,6 @@
+Care Response Bot:
+  What care response bot is a django coded positive reinforcement prototype
+  that the user inputs a negative comment and then takes a prositive comment.
+  This positive sentence is pulled from a text file and outputted to the
+  website. This is just a very basic design that should later be remade for
+  a simpathy api to find how negative or positive the users comments are.

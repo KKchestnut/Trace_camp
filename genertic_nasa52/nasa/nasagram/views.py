@@ -25,7 +25,6 @@ class NasaCommentCreateView(CreateView):
         super().__init__()
         self.image_url = " "
 
-
     def get(self, request):
         date = request.GET.get("date_selected", "2019-01-01")
         api_key = "oMrH77hL0IcYFpEAYw6HpzxULiro2VX2jGy9CIMV"
