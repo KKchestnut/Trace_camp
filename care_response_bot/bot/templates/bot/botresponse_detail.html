@@ -1,5 +1,11 @@
 {% extends 'header.html' %}
 {% block content %}
-  <strong> Answer:
-  {{ answer }}
+<div class= "container">
+  <br>
+  <h4> {{ object.name }}{{ answer }} </h4>
+<form>
+  <button onclick = "location.href='/care_response_bot/create/comment';" class="btn waves-effect waves-light" type = "button"> back
+  </button>
+</form>
+  </div>
 {% endblock %}

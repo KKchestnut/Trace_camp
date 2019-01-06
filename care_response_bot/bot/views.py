@@ -23,7 +23,7 @@ class BotResponseDetailView(DetailView):
         file = open("responses.txt", "r")
         #answer_file = file.readline(random.randint(1, 12))
         real_file = file.readlines()
-        answer_file = real_file[random.randint(0,12)]
+        answer_file = real_file[random.randint(0, 11)]
         context['answer'] = answer_file
         return context
 
@@ -31,17 +31,6 @@ class BotResponseDetailView(DetailView):
 class BotResponseCreateView(CreateView):
     form_class = BotResponseForm
     template_name = 'bot/botresponse_form.html'
-
-    # def __init__(self):
-    #     super().__init__()
-    #     self.comment = ""
-    #
-    # def get(self, requests):
-    #     r = requests.get(f'https://www.happier.com/blog/nice-things-to-say-100-compliments/')
-    #     url = r.json()["url"]
-    #     self.comment = url
-    #     get_response = super().get(requests)
-    #     return get_response
 
 
 class BotResponseUpdateView(UpdateView):
